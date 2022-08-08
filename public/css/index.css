@@ -40,6 +40,8 @@
 }
 
 .w-btn {
+    font-size: 18px !important;
+    font-weight: 600 !important;
     background-color: #0d2cdd !important ; 
     color: #FFF !important;
     border-radius: 20px !important;
@@ -49,6 +51,8 @@
 }
 
 .w-btn1 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
     background-color: #ffffff !important ; 
     color: rgb(14, 12, 12) !important;
     border-radius: 20px !important;
