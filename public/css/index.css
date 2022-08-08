@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+ 
+
+* {
+    font-family: 'Titillium Web', sans-serif  ;
+    scroll-behavior: smooth;
+    margin: 0px;  
+    box-sizing: border-box; 
+}
+
+.row  {
+  margin: 0px !important;
+}
+
+.display-6 {
+  font-weight: 700;
+}
+
+.w-header {
+    background-image: url(/public/source/bg.png);
+    background-repeat: none;
+    background-size: cover;
+    color: #fff; 
+    margin-top: 50px;
+}
+
+.hr-line {
+    margin: 20px !important;
+    border: 2px solid #26b0ff;
+}
+
+.navbar {
+    background-color: #0D539F ;
+    color: #fff; 
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.w-btn {
+    background-color: #0d2cdd !important ; 
+    color: #FFF !important;
+    border-radius: 20px !important;
+    margin-top: 20px;
+}
+
+.w-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    color: #26b0ff;
+    text-align: center;
+}
+
+.w-title-child {
+    font-size: 2.0rem;
+    font-weight: 800;
+}
+
+.w-h {
+   text-align: center;
+  font-weight: 700;
+}
+
+.w-h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem !important; 
+}
+
+.w-h2{
+    font-weight: 400;
+    font-size: 1.3rem !important; 
+}
+
+.w-h3{
+    font-weight: 400;
+    font-size: 1.0rem !important; 
+}
+
+.w-h4 {
+    font-weight: 400;
+    font-size: 1.0rem !important; 
+}
+
+.w-color {
+    color: #FFF;
+}
+
+.w-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.w-bg {
+    padding: 25px;
+    background-image: url(/public/source/bg.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.w-footer {
+    background-color: #0d2cdd !important ; 
+    padding: 20px;
+}
+
+.w-footer .nav-link {
+    color: #FFF;
+    background-color: #377eca;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.w-contact .card * , .w-contact .card{
+   border: 0px;
+}
+
+.w-contact  i {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    background-color: #0d2cdd;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-info {
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.w-info span {
+    font-weight: 700;
+}
+
+
+.w-contact input,.w-contact textarea {
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+.w-alert {
+    position: fixed !important;
+    top: 100px;
+    right: 20px;
+    z-index: 9999;
+}
